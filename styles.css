@@ -1,0 +1,29 @@
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo{
+    text-align: center;
+    margin: 3%;
+}
+.logo img{
+    width: 4em;
+}
+.link{
+    background-color: black;
+    color: white;
+    width: 35%;
+    margin: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
