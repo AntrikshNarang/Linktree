@@ -11,19 +11,39 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: black;
 }
 .logo{
     text-align: center;
     margin: 3%;
+    justify-self: flex-start;
 }
 .logo img{
-    width: 4em;
+    width: 5.5em;
+    
+}
+.logo p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
 }
 .link{
-    background-color: black;
+    background-color: #222222;
+    min-width: 650px;
+    height: 55px;
     color: white;
-    width: 35%;
+    /* width: 35%; */
     margin: 10px;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    line-height: 55px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: transform 0.1s ease-out;
+}
+.link:hover{
+    transform: scale(1.06);
+    cursor: pointer;
 }
