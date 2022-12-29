@@ -31,8 +31,8 @@
     font-size: 1.3rem;
 }
 .link{
+    position: relative;
     background-color: #222222;
-    /* max-width: 650px; */
     width: 650px;
     height: 55px;
     color: white;
@@ -44,7 +44,6 @@
     font-weight: bold;
     border-radius: 10px;
     transition: transform 0.1s ease-out;
-    /* display: flex; */
 }
 .link:hover{
     transform: scale(1.06);
@@ -53,10 +52,15 @@
 .links a{
     text-decoration: none;
     color: white;
+    display:inline;
 }
 .social-icon{
     filter: invert(1);
     width: 35px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .author{
     color: white;
