@@ -45,6 +45,17 @@
     border-radius: 10px;
     transition: transform 0.1s ease-out;
 }
+@media screen and (max-width:600px){
+    .link{
+        width: 350px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 750px) {
+    .link{
+        width: 450px;
+    }
+}
+
 .link:hover{
     transform: scale(1.06);
     cursor: pointer;
