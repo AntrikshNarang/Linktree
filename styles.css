@@ -47,6 +47,10 @@
     transition: transform 0.1s ease-out;
 }
 
+.link-hoverjs{
+    filter:invert(1);
+}
+
 .link:hover{
     transform: scale(1.06);
     cursor: pointer;
